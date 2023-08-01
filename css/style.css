@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {}
+.form-range::-webkit-slider-thumb {
+ 
+    background: #FFE1FF;
+   
+  }
+  .form-range::-moz-range-thumb {
+    background: #FFE1FF;
+  }
+   
+  .form-range::-ms-thumb {
+    background: #FFE1FF;
+  }
+   
+  @media (prefers-reduced-motion: reduce) {
+    .form-range::-webkit-slider-thumb {
+      -webkit-transition: none;
+      transition: none;
+    }
+  }
+   
+  .form-range::-webkit-slider-thumb:active {
+    background-color: orange;
+  }
+   
+  .form-range::-webkit-slider-runnable-track {
+    height: 0.5rem;
+    color: transparent;
+    cursor: pointer;
+    background-color: orange;
+    border-color: transparent;
+    border-radius: 1rem;
+   
+  }
